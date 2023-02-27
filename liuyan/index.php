@@ -4,7 +4,7 @@
     <meta charset = 'UTF-8'>
     <title>留言板</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/angular-material.min.css">
+    <link rel="stylesheet" href="liuyan/css/angular-material.min.css">
 </head>
 
 <body ng-app="BlankApp" ng-cloak>
@@ -70,7 +70,7 @@
 <md-card>
   <md-content layout-padding>
     <p style="margin:0px;">新的留言</p><?php echo $row["name"]?>
-    <form name="projectForm" action="insert.php" method="get">
+    <form name="projectForm" action="/liuyan/insert.php" method="get">
 
 
     <div layout="row">
