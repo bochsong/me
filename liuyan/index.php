@@ -70,7 +70,7 @@
 <md-card>
   <md-content layout-padding>
     <p style="margin:0px;">新的留言</p><?php echo $row["name"]?>
-    <form name="projectForm" action="/liuyan/insert.php" method="get">
+    <form name="projectForm" action="liuyan/insert.php" method="get">
 
 
     <div layout="row">
@@ -108,13 +108,13 @@
 
 
 <!-- Angular Material requires Angular.js Libraries -->
-  <script src="js/angular.min.js"></script>
-  <script src="js/angular-animate.min.js"></script>
-  <script src="js/angular-aria.min.js"></script>
-  <script src="js/angular-messages.min.js"></script>
+  <script src="liuyan/js/angular.min.js"></script>
+  <script src="liuyan/liuyan/liuyan/js/angular-animate.min.js"></script>
+  <script src="liuyan/liuyan/js/angular-aria.min.js"></script>
+  <script src="liuyan/js/angular-messages.min.js"></script>
 
   <!-- Angular Material Library -->
-  <script src="js/angular-material.min.js"></script>
+  <script src="liuyan/js/angular-material.min.js"></script>
   
   <!-- Your application bootstrap  -->
   <script type="text/javascript">    
