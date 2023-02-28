@@ -1,0 +1,18 @@
+		<div>
+			<button class="btn" onclick="show()">点击弹窗</button>
+			<!-- 弹窗遮罩层 -->
+			<div class="dialog">
+			  <!-- 弹窗内容 -->
+			  <div class="content">
+				<div class="aclose">
+					<span>标题</span>
+					<a class="close" href="javascript:close();">&times;</a>
+				</div>
+				<div class="contain">
+					弹窗具体内容
+				</div>
+			  </div>
+			
+			</div>
+			
+		</div>
